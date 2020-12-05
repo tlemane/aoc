@@ -1,0 +1,4 @@
+account.txt
+*.out
+build
+.vscode
