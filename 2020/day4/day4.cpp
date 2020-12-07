@@ -8,7 +8,7 @@ using namespace std;
 using data_t = vector<string>;
 
 const static vector<string> rules {
-  string(R"(byr:19[2-8][0-9]|199[0-9]|200[0-2])"),
+  string(R"(byr:19[2-9][0-9]|200[0-2])"),
   string(R"(iyr:(201[0-9]|2020))"),
   string(R"(eyr:(202[0-9]|2030))"),
   string(R"(hgt:(1[5-8][0-9]|19[0-3])cm|(59|6[0-9]|7[0-6])in)"),
